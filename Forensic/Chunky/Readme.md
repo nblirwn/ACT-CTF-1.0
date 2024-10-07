@@ -10,7 +10,8 @@ Writeup:
 
 - Untuk menyatukan gambar-gambar tersebut seperti semula, bisa menggunakan script di bawah ini:
 
-```from PIL import Image
+```
+from PIL import Image
 
 def merge_chunks(chunks, num_chunks, original_size):
 
@@ -35,6 +36,7 @@ chunks.sort(key=lambda x: int(x.filename.split("_")[1].split(".")[0]))
 
 merged_image = merge_chunks(chunks, num_chunks, original_size)
 
-merged_image.save("gambar_bener.jpg")```
+merged_image.save("gambar_bener.jpg")
+```
 
 - Maka akan diperoleh gambar utuh, selanjutnya tinggal mengedit sumbu y gambar supaya teks di gambar tersebut dapat dibaca. Solved!

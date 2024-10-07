@@ -1,5 +1,6 @@
 Python Pass
 
+
 Writeup:
 
 - Diberikan sebuah file .pyc 3.11 dan sebuah layanan nc, player perlu melakukan decompile terlebih dahulu terhadap file tersebut. Decompile menggunakan pycdc, maka akan didapatkan source code program python tersebut.
